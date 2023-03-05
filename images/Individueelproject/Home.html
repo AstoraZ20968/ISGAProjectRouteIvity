@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page to navigate from</title>
+	<!-- Hier halen we onze eigen stylesheet op -->
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="images/Logo.png" alt="logo">
+            <!-- De search bar-->
+            <form class="search-form" role="search"> 
+                <input type="search" placeholder="Search location...">
+                <button class="search">Search</button>
+            </form>
+            <!-- Filter knop -->
+            <div class="filter"> 
+                <button class="filter-button">Filters</button>
+            </div>
+            <!-- Sort knop -->
+            <div class="sort">
+                <a style="position: relative; bottom: 20px; left:300px;">Sort on:</a>
+                <button class="sort-button">Relevance</button>
+            </div>
+        </header>
+        <!-- Add button om als gebruiker je eigen route toe te voegen -->
+        <a href="RouteTemplate.html">
+            <button class="add-button">Add route</button>
+        </a>
+        <!-- Rectangles met daarin info korte info over routes -->
+        <div class="rectangle">
+            <div class="rectangle-content">
+                <h2>Amsterdam City Centre</h2>
+                <a>01:46</a> <!-- Text met daarin de tijd over hoelang de route duurt -->
+                <a>9 km</a> <!--Text met daarin de lengte van de route in km -->
+                <a>25 participants</a> <!--Text met daarin het aantal deelnemers aan de route -->
+                <img src="images/Stad.jpg" alt="Centrum" style="height:98px; width:100px; 
+                position:relative; right:91%; top:-31px;">
+                <!-- Knop waarmee je de informatie van een route bekijkt -->
+            </div>
+            <a href="RouteInfo.html">
+                <button class="info-page-button">Info</button>
+            </a>
+        </div>
+        <div class="rectangle">
+            <div class="rectangle-content ">
+                <h2>Museumplein</h2>
+                <a>01:19</a>
+                <a>7.6 km</a>
+                <a>0 participants</a>
+                <img src="images/RIjksmuseum.jpg" alt="Centrum"  style="height:98px; width:100px; 
+                position:relative; right:91%; top:-31px;">
+            </div>
+        </div>
+        <div class="rectangle">
+            <div class="rectangle-content ">
+                <h2>Parkwalk</h2>
+                <a>02:16</a>
+                <a>11.4 km</a>
+                <a>12 participants</a>
+                <img src="images/Park 2.jpg" alt="Centrum" style="height:98px; width:100px; 
+                position:relative; right:93%; top:-31px;">
+            </div>
+        </div>
+        <div class="rectangle">
+            <div class="rectangle-content ">
+                <h2>Amsterdam Light Festival</h2>
+                <a>01:24</a>
+                <a>7.9 km</a>
+                <a>35 participants</a>
+                <img src="images/lightfestival.jfif" alt="Centrum" style="height:98px; width:100px;
+                position:relative; right:94%; top:-31px;">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
