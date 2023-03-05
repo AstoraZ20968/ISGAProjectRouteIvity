@@ -616,6 +616,7 @@ hr {
 }
 
 .info-wrapper > a {
+	color: #090806;
 	position: relative;
 	bottom: 200px;
 }
