@@ -23,7 +23,7 @@
    Zet tevens een standaard lettertype wat overerft naar alle tags binnen de body, tenzij die zelf expliciet een ander lettertype krijgen. */
 body {
 	background-color: #f4f4f4;
-	background-image: url(../images/gridbackground2.png);
+	background-image: url(../images/gridbackground3.jpg);
 	background-position: 100% 100%;
 	background-size: cover;
 	margin: 5vh 5vw 5vh 5vw;
