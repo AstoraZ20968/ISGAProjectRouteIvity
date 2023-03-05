@@ -625,3 +625,9 @@ hr {
 	position: relative;
 	bottom: 200px;
 }
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
